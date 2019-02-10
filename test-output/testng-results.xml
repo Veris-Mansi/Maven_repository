@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9028" started-at="2019-02-08T12:22:33Z" finished-at="2019-02-08T12:22:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9028" started-at="2019-02-08T12:22:33Z" finished-at="2019-02-08T12:22:42Z">
+      <class name="APIAutomationTesting.FullAPITest">
+        <test-method status="PASS" signature="registering()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="registering" duration-ms="4848" started-at="2019-02-08T12:22:33Z" description="registering user" finished-at="2019-02-08T12:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registering -->
+        <test-method status="PASS" signature="login()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="login" duration-ms="489" started-at="2019-02-08T12:22:38Z" description="logging the registered user" depends-on-methods="APIAutomationTesting.FullAPITest.registering" finished-at="2019-02-08T12:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gettingAllBlogs()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="gettingAllBlogs" duration-ms="660" started-at="2019-02-08T12:22:38Z" description="getting all blogs" depends-on-methods="APIAutomationTesting.FullAPITest.login" finished-at="2019-02-08T12:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingAllBlogs -->
+        <test-method status="PASS" signature="postBlogs()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="postBlogs" duration-ms="950" started-at="2019-02-08T12:22:39Z" description="posting blogs correctly" depends-on-methods="APIAutomationTesting.FullAPITest.gettingAllBlogs" finished-at="2019-02-08T12:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postBlogs -->
+        <test-method status="PASS" signature="gettingdefinedBlogs()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="gettingdefinedBlogs" duration-ms="460" started-at="2019-02-08T12:22:40Z" description="getting a blog with post id" depends-on-methods="APIAutomationTesting.FullAPITest.postBlogs" finished-at="2019-02-08T12:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingdefinedBlogs -->
+        <test-method status="PASS" signature="updateBlogs()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="updateBlogs" duration-ms="775" started-at="2019-02-08T12:22:41Z" description="updating blogs correctly" depends-on-methods="APIAutomationTesting.FullAPITest.gettingdefinedBlogs" finished-at="2019-02-08T12:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBlogs -->
+        <test-method status="PASS" signature="deleteBlogs()[pri:0, instance:APIAutomationTesting.FullAPITest@14bf9759]" name="deleteBlogs" duration-ms="775" started-at="2019-02-08T12:22:41Z" description="updating blogs correctly" depends-on-methods="APIAutomationTesting.FullAPITest.updateBlogs" finished-at="2019-02-08T12:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBlogs -->
+      </class> <!-- APIAutomationTesting.FullAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
